@@ -1,0 +1,55 @@
+body,
+body div {
+    display: inline-block;
+}
+
+.border-dotted,
+.border-dashed,
+.border-solid,
+.border-double,
+.border-grove,
+.border-ridge,
+.border-inset,
+.border-outset {
+    border-style: dotted;
+    border-width: 15px;
+    height: 200px;
+    width: 200px;
+    background-color: blanchedalmond;
+}
+
+.border-dashed {
+    border-style: dashed;
+    background-color: rgb(229, 245, 250);
+    border-color: rgb(77, 125, 160);
+}
+
+.border-solid {
+    border-style: solid;
+    background-color: lemonchiffon;
+}
+
+.border-double {
+    border-style: double;
+    background-color: lavender;
+}
+
+.border-grove {
+    border-style: groove;
+    border-color: aquamarine;
+}
+
+.border-ridge {
+    border-style: ridge;
+    background-color: lavenderblush;
+}
+
+.border-inset {
+    border-style: inset;
+    border-top-style: dotted;
+    border-left-color: blue;
+}
+
+.border-outset {
+    border: 10px outset blue;
+}
